@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+/* Fonts */
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16;
+    line-height: 36px;
+    background-color: whitesmoke;
+}
+
+p1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18;
+    line-height: 26px;
+    
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    line-height: 50px;
+}
+
+h1_1{
+    font-family: "Montserrat", sans-serif;
+    line-height: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    line-height: 40px;
+}
+
+h2_1{
+    font-family: "Montserrat", sans-serif;
+    line-height: 40px;
+    color: rgb(255, 0, 0);
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.text_block h2_1{
+    font-family: "Montserrat", sans-serif;
+    line-height: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    line-height: 28px;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 26;
+    color: rgba(25, 48, 88,1);
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.text_block li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color: rgba(25, 48, 88,1);
+    text-decoration: none;
+    list-style: square;
+    background-color: white;
+}
+
+/* Navigationsleiste */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.logo{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.nav_links{
+    background-color: whitesmoke;
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nav_links a_aktiv{
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 26;
+    color: rgba(255, 0, 0, 1);
+    text-decoration: none;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: rgba(25, 48, 88,0.5);
+}
+
+.logo_alignment{
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+button{
+    padding: 5px 20px;
+    background-color: rgba(25, 48, 88,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color: white;
+
+}
+
+button:hover{
+    background-color: rgba(25, 48, 88,0.5);
+    color: rgba(25, 48, 88,1);
+}
+
+/* Alignments */
+
+.alignment_inline_first_element{
+    
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    display: flex;
+    padding:  25 10%;
+    justify-content: space-between;
+}
+
+.alignment_inline{
+    
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    padding:  25 10%;
+    justify-content: space-between;
+}
+
+.alignment_inline_Close_to_Top{
+ 
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+    padding:  25 10%;
+    justify-content: space-between;
+}
+
+.alignment_inline_header{
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 200px;
+    display: flex;
+    padding:  25 10%;
+}
+
+.text_block{    
+   
+    width: 75%;
+    display: inline-block;
+    text-align: justify;
+}
+
+.Bild_autoalign{
+    
+    width: auto;
+    height: auto;
+}
+
+.Bild_flush_right{
+  
+    display: block;
+    text-align: right;
+    width: 300px;
+
+}
+
+/* Kontakt Seite */
+.text_kontakt{
+    
+    width: 50%;
+    display: inline-block;    
+}
